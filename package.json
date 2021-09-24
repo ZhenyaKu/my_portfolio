@@ -1,4 +1,5 @@
 {
+  "homepage": "https://zhenyaku.github.io/my_portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
     "react-tsparticles": "^1.35.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
