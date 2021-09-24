@@ -1,0 +1,65 @@
+@import "../../global.scss";
+
+.about-me {
+	color: #fff;
+    padding-top: 40px;
+
+	.title {
+        font-size: 50px;
+		text-align: center;
+		padding: 20px 0 40px;
+	}
+
+	.about {
+		display: flex;
+        height: 35vh;
+
+		.foto {
+			display: flex;
+			justify-content: center;
+			width: 50%;
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+				filter: grayscale(100%);
+
+		}
+
+		.bio {
+            text-align: justify;
+			width: 50%;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p{
+                width: 60%;
+            }
+
+            .btn{
+            width: 150px;
+            height: 30px;
+            color: white;
+            background-color: $mainColor;
+            border: none;
+            border-radius: 1px;
+            font-weight: 500;
+            cursor: pointer;
+            
+        }
+		}
+	}
+
+    .title-skills {
+        padding: 70px 40px 0;
+        text-align: center
+    }
+
+    .skills-list {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

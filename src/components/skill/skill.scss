@@ -1,0 +1,23 @@
+@import "../../global.scss";
+
+.skill {
+	width: 90%;
+
+	.skill-info {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		padding: 20px 0 0;
+	}
+
+	.skill-progress {
+		border-radius: 12px;
+		width: 100%;
+		height: 8px;
+		background-color: rgb(37, 37, 37);
+
+		&-filled {
+			height: 12px;
+		}
+	}
+}

@@ -4,7 +4,8 @@ import { useState } from "react";
 import Topbar from './components/topbar/topbar';
 import Intro from './components/intro/intro';
 import Portfolio from './components/portfolio/portfolio';
-import MenuMobile from './components/menu.mobile/menu.mobile';
+import MenuMobile from './components/menu-mobile/menu-mobile';
+import AboutMe from './components/about-me/about-me';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <MenuMobile menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
+        <AboutMe />
         <Portfolio />
       </div>
     </div>

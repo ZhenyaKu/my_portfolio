@@ -7,10 +7,10 @@ export default function Menu() {
                 <a href="#intro">Home</a>
             </li>
             <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#about-me">About me</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#portfolio">Portfolio</a>
             </li>
         </ul>
     )

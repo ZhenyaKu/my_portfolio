@@ -1,4 +1,4 @@
-import "./menu.mobile.scss";
+import "./menu-mobile.scss";
 
 export default function MenuMobile({ menuOpen, setMenuOpen }) {
     return (

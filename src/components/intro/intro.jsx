@@ -20,7 +20,7 @@ export default function Intro() {
             <IntroParticles />
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/myfoto.png" alt="" />
+                    <img src="assets/IMG_0762-removebg.png" alt="" />
                 </div>
             </div>
             <div className="right">
@@ -30,10 +30,23 @@ export default function Intro() {
                         Trainee{" "}
                         <span className="ityped-cursor" ref={textRef}></span>
                     </h3>
+                    <div>
+                        <a
+                            className="icon"
+                            href="https://github.com/ZhenyaKu"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="assets/github.svg" alt="" />
+                        </a>
+                        <a
+                            className="icon"
+                            href="https://www.linkedin.com/in/evgenia-kuzbit-556542174/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="assets/linkedin.svg" alt="" />
+                        </a>
+                    </div>
                 </div>
-                <a href="#portfolio">
-                    <img src="assets/down.png" alt="" />
-                </a>
             </div>
         </div>
     );
