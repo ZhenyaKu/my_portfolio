@@ -9,8 +9,8 @@ import AboutMe from './components/about-me/about-me';
 
 
 function App() {
-
   const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
