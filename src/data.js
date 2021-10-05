@@ -10,8 +10,7 @@ export const reactPortfolio = [
     {
         id: 2,
         title: "ToDo list",
-        img:
-            "assets/todo_list.png",
+        img: "assets/todo_list.png",
         url: "https://github.com/ZhenyaKu/todo-list-react",
     },
     {
