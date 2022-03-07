@@ -30,7 +30,7 @@ export default function AboutMe() {
 
                 <div className="skills-list">
                     <Skill title="JavaScript" percent={50} color="#845ef7" />
-                    <Skill title="React" percent={45} color="#845ef7" />
+                    <Skill title="React" percent={50} color="#845ef7" />
                     <Skill title="HTML" percent={80} color="#845ef7" />
                     <Skill title="CSS" percent={60} color="#845ef7" />
                 </div>

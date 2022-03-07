@@ -27,7 +27,7 @@ export default function Intro() {
                 <div className="wrapper">
                     <h1>I'm Evgeniya Kucherenko</h1>
                     <h3>
-                        Trainee{" "}
+                        Junior{" "}
                         <span className="ityped-cursor" ref={textRef}></span>
                     </h3>
                     <div>
