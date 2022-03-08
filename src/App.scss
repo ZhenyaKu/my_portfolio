@@ -16,8 +16,9 @@
 
         >*{
             width: 100vw;
-            height: calc(100vh - 70px);
+            min-height: calc(100vh - 70px);
             scroll-snap-align: start;
+            padding-bottom: 20px;
             
         }
     }

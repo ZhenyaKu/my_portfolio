@@ -1,4 +1,17 @@
-
+export const skills = [
+    {
+        id: "react",
+        title: "React",
+    },
+    {
+        id: "html",
+        title: "HTML",
+    },
+    {
+        id: "css",
+        title: "CSS",
+    },
+];
 
 export const reactPortfolio = [
     {

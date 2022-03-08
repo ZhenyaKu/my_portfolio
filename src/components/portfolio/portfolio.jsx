@@ -5,6 +5,7 @@ import {
     reactPortfolio,
     htmlPortfolio,
     cssPortfolio,
+    skills
 } from "../../data";
 
 
@@ -12,20 +13,6 @@ export default function Portfolio() {
 
     const [selected, setSelected] = useState("react");
     const [data, setData] = useState([]);
-    const list = [
-        {
-            id: "react",
-            title: "React",
-        },
-        {
-            id: "html",
-            title: "HTML",
-        },
-        {
-            id: "css",
-            title: "CSS",
-        },
-    ];
 
     useEffect(() => {
         switch (selected) {
@@ -47,7 +34,7 @@ export default function Portfolio() {
         <div className="portfolio" id="portfolio">
             <h2>Portfolio</h2>
             <ul>
-                {list.map(item => (
+                {skills.map(item => (
                     <PortfolioList
                         key={item.id}
                         title={item.title}
