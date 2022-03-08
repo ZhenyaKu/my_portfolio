@@ -16,17 +16,33 @@ export const reactPortfolio = [
     {
         id: 3,
         title: "E-commerce web-site",
-        img:
-            "",
+        img: "assets/e-commerce.png",
         url: "https://github.com/ZhenyaKu/crwn-clothing",
     },
     {
         id: 4,
         title: "Calculator",
-        img:
-            "assets/calculator.png",
+        img: "assets/calculator.png",
         url: "https://github.com/ZhenyaKu/calculator-react-hooks",
     },
+    {
+        id: 5,
+        title: "Weather app ",
+        img: "assets/weather_app.png",
+        url: "https://github.com/ZhenyaKu/weather-app-react ",
+    },
+    {
+        id: 6,
+        title: "Chat app ",
+        img: "assets/chat_app.png",
+        url: "https://github.com/ZhenyaKu/simple-chat",
+    },
+    {
+        id: 7,
+        title: "Movie app ",
+        img: "assets/movie_app.png",
+        url: "https://github.com/ZhenyaKu/simple-chat",
+    }
 ];
 
 export const htmlPortfolio = [
